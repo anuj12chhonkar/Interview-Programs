@@ -11,10 +11,11 @@ public class Reverse_Array {
 		
 		while(start< end) {
 			temp=a[end];
-			a[end]= a[start];
-			a[start] = temp;
-			start++;
-			end--;
+			a[end--]= a[start];
+			a[start++] = temp;
+			/*
+			 * start++; end--;
+			 */
 		}
 		
 		

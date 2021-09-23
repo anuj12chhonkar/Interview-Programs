@@ -18,8 +18,8 @@ public class Max_Min_Element {
 	            }
 	            
 	        }
-		System.out.println("Maximum elemnt is " +max);
-		System.out.println("Minimum element is " +min);
+		System.out.println("Maximum elemnt is : " +max);
+		System.out.println("Minimum element is : " +min);
 		
 	}
 	
